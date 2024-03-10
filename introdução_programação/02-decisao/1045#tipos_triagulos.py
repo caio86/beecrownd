@@ -3,7 +3,7 @@ valores = input().split()
 lados = [float(x) for x in valores]
 lados.sort(reverse = True)
 
-CONDICAO_ISOSCELES=lados[0] == lados[1] or lados[0] == lados[1] or lados[1] == lados[2]
+CONDICAO_ISOSCELES=lados[0] == lados[1] or lados[0] == lados[2] or lados[1] == lados[2]
 
 if lados[0] >= (lados[1] + lados[2]):
     print("NAO FORMA TRIANGULO")

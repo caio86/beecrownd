@@ -1,6 +1,6 @@
-idade_velha = 0
-idade_nova = 9999
-qtd_pessoas = 40
+idade_velha = float("-inf")
+idade_nova = float("inf")
+qtd_pessoas = 4
 
 for x in range(1, qtd_pessoas + 1):
     idade = int(input(f"Qual a idade da {x}ª pessoa? "))
